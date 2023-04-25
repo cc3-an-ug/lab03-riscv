@@ -1,4 +1,4 @@
-.rodata
+.data
   msg1: .asciiz "Enter a number: "
   msg2: .asciiz "\nresult = "
 
