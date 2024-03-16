@@ -1,10 +1,10 @@
+.globl __start
+
 .data
   msg1: .asciiz "Enter a number: "
   msg2: .asciiz "\nresult = "
 
 .text
-
-.globl __start
 
 __start:
   li a0, 4
@@ -20,11 +20,8 @@ __start:
   mv a1, s0
   li a0, 1
   ecall # Prtint int
-  li a1, '\n'
-  li a0, 11
-  ecall # Print char
   li a0, 10
   ecall # Exit
 
 factorial:
-  # YOUR CODE HERE
+  # TODO: Implement this
